@@ -1,0 +1,10 @@
+server:
+  port: 8949
+  servlet:
+    context-path: /
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 81.68.251.200:8848
+

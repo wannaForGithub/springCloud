@@ -1,10 +1,15 @@
 spring:
   application:
-    name: user-service
+    name: product-service
   cloud:
     nacos:
       config:
         server-addr: 81.68.251.200:8848
         file-extension: yml
         shared-configs:
+        namespace: 48b04be8-7d48-4e95-803e-8d54b296d59b
+        group: dev
+        enabled: true
+
+mybatis-plus:
 

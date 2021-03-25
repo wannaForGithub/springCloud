@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    data-username: nacos
+    data-password: nacos
+    hikari:
+      jdbc-url: jdbc:mysql://81.68.251.200:3306/nacos?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  profiles:
+    active: dev
