@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 81.68.251.200:8848
+        file-extension: yml
+        shared-configs:
+

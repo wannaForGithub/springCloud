@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.idea" vcs="" />
+    <mapping directory="$PROJECT_DIR$/product-service/target" vcs="" />
+    <mapping directory="$PROJECT_DIR$/user-service/target" vcs="" />
   </component>
 </project>

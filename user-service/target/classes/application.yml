@@ -10,15 +10,15 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/demoschema?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://81.68.251.200:3306/cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: nacos
+    password: nacos
+    driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: localhost
+    host: 81.68.251.200
     port: 6379
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 81.68.251.200:8848
 

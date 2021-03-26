@@ -3,11 +3,11 @@ server:
   port: 8848
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     data-username: root
     data-password: root
     hikari:
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/demoschema?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      jdbc-url: jdbc:mysql://81.68.251.200:3306/cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false
   profiles:
     active: dev
 #  redis:
