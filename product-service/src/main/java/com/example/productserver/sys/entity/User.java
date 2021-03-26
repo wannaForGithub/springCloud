@@ -2,7 +2,9 @@ package com.example.productserver.sys.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -23,8 +25,8 @@ public class User implements Serializable {
     /**
      * 用户id，唯一主键
      */
-      @TableId(value = "id", type = IdType.ASSIGN_ID)
-    private Long id;
+    @TableId(value = "id", type = IdType.AUTO)
+    private int id;
 
     /**
      * 用户名

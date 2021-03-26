@@ -6,10 +6,17 @@ spring:
       config:
         server-addr: 81.68.251.200:8848
         file-extension: yml
-        shared-configs:
+        shared-configs: product-service.yml
         namespace: 48b04be8-7d48-4e95-803e-8d54b296d59b
         group: dev
         enabled: true
+#        extension-configs:[0]:
+#          data-id:
+#          group:
+#          refresh: true
+#        extension-configs:[1]:
+#          data-id:
+#          group:
+#          refresh: true
 
-mybatis-plus:
 
